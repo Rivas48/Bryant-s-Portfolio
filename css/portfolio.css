@@ -1,0 +1,208 @@
+
+
+body{
+	background-color: #333;
+}
+section{
+	width:100%;
+}
+
+
+h1,p,a{
+	text-align: center;
+	color:white;
+}
+
+a:hover{
+	color:none;
+}
+
+a:hover{
+	color:none;
+}
+
+.header{
+	height:45%;
+	background-image:url('../img/javascript.jpg');
+	background-size:cover;
+	color:white;
+	background-color: #333;
+}
+
+.masthead{
+	background-color: #333;
+}
+
+.orange{
+	background:orange;
+}
+
+.lightblue{
+	background:green;
+}
+
+.section-title{
+	border-top: 4px solid;
+    margin-bottom: 90px;
+}
+
+#about .section-title{
+	border-color:orange;
+}
+
+#about h2 {
+    background-color:orange;
+    float:left;
+}
+
+#skills .section-title{
+	border-color:green;
+}
+
+#skills h2 {
+    background-color:green;
+     float:right;
+}
+
+#contact .section-title{
+	border-color:red;
+}
+
+#contact h2 {
+    background-color:red;
+     float:right;
+
+}
+
+#portfolio .section-title{
+	border-color:blue;
+}
+
+#portfolio h2 {
+    background-color:blue;
+     float:left;
+}
+
+.section-title h2 {
+    display: inline-block;
+    padding: 20px 35px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+
+    font-size: 20px;
+}
+
+.left{
+	margin: 0 50px 0 0;
+}
+
+.right{
+	margin: 0 0 0 50px;
+}
+
+.about_text, .personal_text{
+	width:100%;
+	text-align: center;
+}
+
+.btn-sm{
+	width:100px;
+}
+
+.about{
+	background-color: #33230f;
+}
+
+.skills{
+	background-color: #13330f78;
+}
+
+.portfolio{
+	background-color: #0f24338f;
+}
+
+.contact{
+	background-color:#330f0fb8;
+}
+
+.carousel-indicators{
+	    top: 110%;
+}
+
+.list{
+	padding:0;
+}
+
+/* Style all font awesome icons */
+.fab{
+    padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+
+.git:hover{
+	color:white;
+}
+
+.fab:hover{
+	color:#212529;
+}
+
+.link:hover{
+	color:none;
+}
+
+.preload{
+	width:100%;
+	height:100%;
+	background:#333;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:16;
+}
+
+.disappear{
+ 	visibility: hidden;
+ 	opacity: 0;
+  	transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.loader{
+	border:16px solid #f3f3f3;
+	border-radius: 50%;
+	border: 16px solid #3498db;
+	width:120px;
+	height:120px;
+	animation: spin 2s linear 3 ;
+	margin:auto;
+	position: absolute;
+    top: 45%;
+    left:45%;
+}
+
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform:rotate(360deg); }
+	}
+.loader-image{
+	width:89px;
+}
+
+.email{
+	background:red;
+}
+
