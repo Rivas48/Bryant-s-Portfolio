@@ -1,0 +1,884 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+    font: 14px/1.6 "Open Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Exo 2", sans-serif;
+}
+
+
+strong{
+		text-transform: uppercase;
+		font-size:14px/1.6px;
+		font-weight:700;
+}
+
+
+.background-container{
+	display:flex;
+	flex-direction: column;
+	overflow-x: hidden; 
+}
+
+
+.container{
+	display:flex;
+	width:100%;
+	height:100%;
+}
+
+.image-container{
+	display: flex;
+	
+}
+
+
+img{
+	height:100%;
+	width:100%;
+}
+
+.nav-name{
+		background-color:rgb(79,79,79);
+		padding:20px;
+		text-align: center;
+		color:white;
+}
+
+.nav-title{
+	display:flex;
+	justify-content: center;
+	background-color:rgb(63,63,63);
+	padding:15px;
+	text-align: center;
+	color:white;
+}
+
+
+.nav-list{
+	display:inline-flex;
+	flex-wrap: wrap;
+	list-style: none;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+.home{
+	background-color:rgb(41,187,156);
+}
+
+.resume,.resume-header{
+	background-color:rgb(54,141,199);
+}
+
+.portfolio,.portfolio-header{
+	background-color:rgb(154,94,180);
+}
+
+.contact,.contact-header{
+	background-color:rgb(228,126,48);
+}
+
+.feedback,.feedback-header{
+	background-color:rgb(229,77,66);
+}
+
+.favorites,favorites-header{
+	background-color:rgb(189,146,43);
+}
+
+.resume-header,.portfolio-header,.contact-header,.feedback-header,.favorties-header{
+	color:white;
+	padding:20px;
+}
+
+.nav-list p {
+	width:100%;
+	height:100%;
+	text-align: center;
+	color:white;
+}
+
+.nav-list li{
+	font-family: "Exo 2", sans-serif;
+	width:25%;
+}
+
+
+
+.experience-container{
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.experience-container ul{
+	padding-left:12.5px;
+}
+
+.experience-container ul li {
+	padding-left: 15px;
+}
+
+.job-title{
+	font-size:12px;
+}
+
+.col-1,.col-2,.col-3,.col-4{
+	padding:5%;
+}
+
+.gone-left{
+	position:relative;
+	left:1000px;
+}
+
+.gone-right{
+	position:relative;
+	right:1000px;
+}
+
+.footer-container{
+	position:relative;
+	left:1000px;
+}
+
+.col-2{
+
+	background-color: rgb(239,239,239);
+}
+
+.col-3{
+	background-color: rgb(153,92,179);
+	color:white;
+}
+
+.col-3 ul{
+	list-style: none;
+}
+
+.bullet{
+	list-style-type:disc;
+	font-size:;
+}
+
+.col-4{
+	background-color: rgb(58,153,216);
+	color:white;
+}
+
+
+.bullet{
+	font-family: "Exo 2", sans-serif;
+	font-size:16px;
+	font-weight:550;
+}
+
+h5{
+	font-family: "Exo 2", sans-serif;
+   	font-weight: 700 !important;
+   	margin:0;
+}
+
+.about-me-icons{
+	color:#3498db;	
+	font-size:20px;
+}
+
+.icon{
+	display:none;
+}
+
+.row-column h6{
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight:400;
+}
+
+.about-content,.skill-container,.gallery-row{
+	display:flex;
+	flex-direction: column;
+	text-align:center;
+	justify-content: center;
+	margin:10px 0;
+}
+
+
+.title-center{
+	text-align:center;
+}
+
+.quality-container{
+	display: flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center; 
+}
+
+#html,#css,#javascript {
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+
+/* Portfolio Build */
+
+
+
+.sites{
+	display:flex;
+	width:70%;
+	margin:auto;
+}
+
+.button-layout{
+	display:inline-flex;
+	width:100%;
+	list-style: none;
+	padding:0;
+	margin:50px 0;
+	justify-content: space-around;
+}
+
+.button-layout .button{
+    padding: 12px 24px;
+    margin-right: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+.none{
+	display:none;
+}
+
+.form-container{
+	padding:5px;
+	display:flex;
+	width:100%;
+	flex-wrap: wrap;
+}
+
+form{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+input{
+	display:flex;
+	height:40px;
+	width:80%;
+	justify-content: center;
+	margin:5px 0px;
+	padding: 12px 15px;
+	border: 1px solid #d7d7d7;
+}
+
+textarea{
+	display:flex;
+	height:140px;
+	width:80%;
+	justify-content: center;
+	margin:5px 0px;
+	padding: 12px 15px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 0 0 2px transparent inset;
+    vertical-align: baseline;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2f2f2f;
+    background-color: #ffffff !important;
+    border: 1px solid #d7d7d7;
+    margin-bottom:15px;
+}
+
+.send{
+	width:124px;
+	height:40px;
+	border-radius:2px;
+	border: 1px solid rgb(226,126,58);
+    background: rgb(226,126,58);
+    color: #ffffff !important;
+    margin: 30px 100px;
+    font-size:14px;
+
+}
+
+.footer-icons,.personal-icons{
+	color:white;
+    margin: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+.personal-icons{
+	margin: 10px auto;
+	color:black;
+}
+
+
+.fa-linkedin-in:hover{
+	color:#0077B5;
+}
+
+.fa-facebook-f:hover{
+	color:#3B5998;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+
+.fa-github:hover{
+	color:black;
+}
+
+
+.footer-section{
+	background-color: rgb(63,63,63);
+	padding:20px 0px;
+}
+
+.social-links,.social-copyright{
+	display:inline-flex;
+	justify-content: center;
+	width:100%;
+}
+
+.copyright-text{
+	color:white;
+	margin:0px;
+	padding:0px;
+}
+
+.resume-header,.contact-header,.portfolio-header,.resume-header-text,.container-titles-no-uppercase{
+	display:none;
+}
+
+.header-container{
+	width:100%;
+}
+
+.progress-text{
+	color:white;
+}
+
+.room,.personalities-container{
+	padding:15px;
+}
+
+#query{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+	.nav-list{
+		display:inline-flex;
+		flex-wrap: wrap;
+		list-style: none;
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+
+	.nav-list > a {
+		display:flex;
+		text-decoration: none;
+		width:20%;
+	}
+
+	.nav-list li,p {
+		padding:5px 0;
+	}
+
+
+	header p{
+		text-align:left;
+	}
+
+	.title-center{
+		font-family:"Exo 2", sans-serif;
+		text-align: center;
+		font-weight:400;
+	}
+
+	.container-titles-no-upppercase{
+		text-transform:none;
+		font-family: "Exo 2", sans-serif;
+		font-weight:400;
+		font-size: 29px;
+		margin:0;
+	}
+	.container-titles{
+		text-transform: uppercase;
+		font-family: "Exo 2", sans-serif;
+		font-weight:400;
+		font-size: 29px;
+		margin:0;
+	}
+
+
+	.about-content{
+		display:flex;
+		flex-direction:row; 
+		justify-content: center;
+		text-align:left;
+		margin:40px 0px;
+	}
+
+	.contain-content h3{
+		text-transform: uppercase;
+		font-size:14px/1.6px;
+		font-weight:500;
+		margin:5px;
+	}
+
+	.info-text{
+		color: #3f3f3f;
+		font-size: 14px;
+    	font-weight: 400;
+	}
+
+	about-info-section span{
+		margin: auto;
+	}
+
+	span{
+		display:flex;
+
+	}
+
+	span p{
+		margin:0;
+		width:100%;
+	}
+
+
+	.about-content{
+		text-align: center;
+	}
+
+	.skill-container{
+		text-align:center;
+	}
+
+	.col{
+		padding:10px;
+		margin:0;
+	}
+
+	.col p,h6{
+		margin:0;
+		padding:0;
+	}
+
+
+	/* Resume Build */
+
+	.col-pad{
+		padding:20px;
+	}
+
+	.personalities-container{
+		background-color: #f7f7f7 !important;
+		padding: 30px 10px;
+	}
+
+	.professional-container{
+		margin-top: 30px;
+	}
+
+	.quality-container{
+		text-align: center;
+	}
+} 
+@media only screen and (min-width: 768px) {
+	.nav-list p {
+		padding:10px 0;
+		text-align: center;
+	}
+
+	.nav-list a{
+		width:20%;
+	}
+
+	.about-content{
+		display:flex;
+		flex-direction:row; 
+		justify-content: center;
+		text-align:left;
+		margin:40px 0px;
+	}
+
+	i{
+		margin-top:10px;
+		margin-right:10px;
+		font-size:20px;
+	}
+
+	.contain-content h3{
+		text-transform: uppercase;
+		font-size:14px/1.6px;
+		font-weight:500;
+		margin:5px 2px;
+	}
+	.personal-content{
+		display:flex;
+	}
+
+	.personal-content strong{
+		font-weight: 700;
+		width:50%;
+	}
+
+	.personal-content p {
+		color:black;
+		text-align: left;
+		width:50%;
+	}	
+
+	.container-titles-no-upppercase{
+		font-family: "Exo 2", sans-serif;
+		font-weight:400;
+		font-size: 29px;
+		margin:0;
+		text-transform:none;
+	}
+
+	.about-section, .professional-container{
+		display:inline-flex;
+	}
+
+	.skill-container{
+		width:33.33%;
+		text-align:center;
+	}
+
+	.col{
+		display:flex;
+		flex-wrap: wrap;
+		padding:10px;
+		margin:0;
+		justify-content: center
+	}
+
+
+	/* Resume Build */
+
+	.row{
+		display:inline-flex;
+		width:100%;
+	}
+
+	.room{
+		margin:10px;
+	}
+
+	.row-column{
+		width:25%;
+	}
+
+	.row-column h6, p{
+		text-align:left;
+	}
+
+	.col p,h6{
+		margin:0;
+		padding:0;
+		text-align: right;
+	}
+
+	.col p{
+		text-align: center;
+		width:60%;
+	}
+
+	.col h6{
+		text-transform: uppercase;
+		font-size:17px;
+		font-weight:400;
+		width:40%;
+	}
+
+	.personalities-container{
+		background-color: #f7f7f7 !important;
+		padding: 30px 10px;
+	}
+
+
+	.title-center{
+		margin:20px 0;
+		text-align:center;
+		font-size:25px;
+		font-weight:400;
+	}
+	
+	.quality-container{
+		display:flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.quality-title{
+		margin:0;
+	}
+
+	.gallery-row{
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap:wrap;
+	}
+
+	.sites{
+		width:33.33%;
+	}
+
+	.header-container{
+		width:100%;
+	}
+
+	.skill-container p{
+		text-align:center;
+	}
+
+
+
+} 
+
+
+@media only screen and (min-width: 992px) {
+	.title-container, .job-title-container{
+		width:100%;
+		height:50%;
+		display:inline-flex;
+	}
+
+	.nav-name, .nav-title{
+		display: flex;
+		justify-content: flex-start;
+		width:80%;
+	}
+
+	.icon{
+		display:block;
+		background: rgba(0, 0, 0, 0.1);
+		background-color: rgb(63,63,63);
+		width:20%;
+		text-align: center;
+	}
+
+	.icon img{
+		width:80px;
+	}
+
+	.fa-download{
+		color: #efefef;
+		margin-top: 40px;
+		font-size:50px;
+		width:100%;
+		height:100%;
+	}
+
+	.fa-connectdevelop{
+		text-align: center;
+		color: #efefef;
+		margin-top: 40px;
+		font-size:50px;
+	}
+
+
+	.header-container{
+		display:inline-flex;
+		width:100%;
+		flex-wrap:wrap;
+	}
+
+
+	.container-titles-no-upppercase{
+		font-family: "Exo 2", sans-serif;
+		font-weight:400;
+		font-size: 29px;
+		margin:0;
+		text-transform:none;
+	}
+	.container-titles{
+		margin:;
+		text-transform: uppercase;
+	}
+
+	.image-container{
+		width:30%;
+	}
+
+	.name-container{
+		width:100%;
+		height: 80%;
+	}
+	.row{
+		display:inline-flex;
+		width:100%;
+	}
+
+	.room{
+		margin:30px 0px;
+	}
+
+	.row-column{
+		width:25%;
+	}
+
+	.col-1{
+		width:70%;
+	}
+
+	.col-2{
+		width:30%;
+	}
+
+	.col-4{
+		width:70%;
+	}
+
+	.col-3{
+		width:30%;
+	}
+
+	.personal-content{
+		margin:10px;
+	}
+
+	.bold{
+		width:80%;
+	}
+
+	.info-text{
+		width:100%;
+		text-align: left;
+		margin:0;
+	}
+
+	.image-titles{
+		font-size:3em;
+	}
+
+	.second-image-title{
+		font-size:2.2em;
+	}
+
+	/* Resume Build */
+
+	.quality-container{
+		width:25%;
+	}
+
+	.quality-section{
+		margin-top: 35px;
+		display:inline-flex;
+		width:100%;
+	}
+
+	.quality-title{
+		margin:0;
+	}
+
+
+	.gallery-row{
+		width: 80%;
+		margin:auto;
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.sites{
+		width:30%;
+		margin:50px 1%;
+	}
+
+	.col-pad{
+		margin:40px;
+		padding:20px;
+		background-image: url('../images/greenporttrains.jpeg');
+		background-repeat: none;
+		background-size:fit;
+	}
+
+	.image-titles,.second-image-title{
+		margin:0;
+		align-self: center;
+	}
+
+	.right-header{
+		width:70%;
+	}
+
+	.header-container{
+		width:100%;
+	}
+
+	.nav-container{
+		height:20%;
+	}
+
+	.about-info-section{
+		display:inline-flex;
+		width:100%;
+	}
+
+	.skill-container p{
+		text-align:center;
+	}
+
+} 
+
+@media only screen and (min-width: 1200px) {
+
+	.header-container{
+		height:100%;
+		/* Resume Build */
+	}
+
+	.quality-container{
+		width:20%;
+		margin:0 auto;
+	}
+
+	.image-titles,.second-image-title{
+		margin:0;
+	}
+
+
+}

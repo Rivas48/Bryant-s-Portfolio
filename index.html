@@ -1,191 +1,337 @@
-<!DOCTYPE html>	
-<html>
-	<head>
-		<meta charset="utc-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title></title>
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-		<!-- Add icon library -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/portfolio.css">		
-	</head>
-	
-  <body class="text-center mw-100">
-
-  	<div id="preload" class="preload">
-			<div id="loader" class="loader">
-				<img class="loader-image" src="img/br.svg" alt="">
-			</div>	
-	</div>
-
-    <div class="cover-container d-flex mw-100 mh-100 mx-auto flex-column nav">
-			    <section class='masthead  mw-100 mh-100'>
-			    	<!-- Header -->
-			      <header class="masthead  mw-100 mh-100">
-			        <div class="inner">
-					  <!-- Navigation -->
-			          <nav class="nav nav-masthead d-flex justify-content-around mw-100 mh-100">
-			          	 <img class="navbar-brand" src='img/br.svg' alt=''>
-			          	 <ul class='d-inline-flex align-items-center list'>
-			            <a class="nav-link active" href="#">Home</a>
-			            <a class="nav-link" href="#about">About</a>
-			            <a class="nav-link" href="#skills">Skills</a>
-			             <a class="nav-link" href="#portfolio">Portfolio</a>
-			              <a class="nav-link" href="#contact">Contact</a>
-			              </ul>
-			          </nav>
-			        </div>
-			      </header>
-
-			      <div role="main" class="header inner cover flex pt-3 pb-3">
-			        <h1 class="cover-heading mt-5">Front End Developer</h1>
-			        <div class='row justify-content-center'>
-			        <p class="lead w-50 mb-5 mt-2">I've always been drawn to the overlap between design and development. My skills are broad: from ux to design, front end to back end development. I enjoy each aspect, and love building sites & mobile apps from start to finish, for clients all over the world.</p>
-			        <p class="lead w-100">
-			        </p>
-			        </div>
-			      </div>
-			  </section>
-			<!-- About Me-->
-			<section id='about' class='about '>
-				<div class='row d-flex flex-wrap'>
-					<div class='col-md-12 w-100'>
-						<div class='section-title'>
-						<h2 class=''>About Me</h2>
-						</div>
-						<img src="img/bryantpic.jpg" class='img-thumbnail mx-auto my-auto mt-5' alt="">
-						 <!-- About Me Description -->
-						<div class='row orange rounded mb-3 mt-5 pt-3 pb-3 pr-3 pl-3 mr-5 ml-5'>
-						<p>
-							My name is Bryant Rivas. I am a front end developer who earned an Associate Degree in Liberal Arts and Sciences/Liberal studies. 
-							I have also completed Treehouse's front end developer course by studying and coding 10-15 hours over a week
-							while having a non-coding full-time job.
-			
-						</p>
-						<p>
-							Not to mention being personable,  I have 3 months experience as a Web Developer. 
-							I am currently looking for a full-time junior front end developer role. 
-						</p>
-						</div>
-					</div>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bryant's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src='js/progress.js'></script>
+</head>
+<body>
+	<div class='background-container'>
+		<div class='container'>
+		<div class='header-container'>
+			<div id='image' class='image-container gone-right'>
+				<img src="images/profile.jpg" alt="">
+			</div>
+			<div class='right-header'>
+			<div class='name-container'>
+			<div id='name' class='title-container gone-left'>
+				<div class='nav-name'>
+					<h1 class='image-titles'>Bryant Rivas</h1>
 				</div>
-			</section>
-
-			<!-- Skills -->
-			<section id='skills' class='skills pb-5 '>
-
-				<div class='row '>
-					<div class='col-md-12'>
-						<div class='section-title'>
-						<h2 class=' mb-5'>Skills</h2>
-						</div>
-					</div>
+				<div class='icon'>
+					<img src="images/br.svg" alt="">
 				</div>
-				<div class='row mw-100 justify-content-between'>
-					<!--- Skill Description -->
-				<div class='lightblue rounded col-sm-8 mb-4 ml-5 pt-3 pb-3 pr-3 pl-3'>
-					<p>
-						Languages/Frameworks include:
-
-						Intermediate Level: HTML5, PHP, CSS3, JavaScript, SQL, jQuery, Bootstrap, WordPress, JSON, Sass, Git, Node.js.
-					</p>
-					<p>
-						Beginner to 
-						Intermediate Level: React, Animations,SEO. 
-					</p>
-					<p>
-						Soft skills include team-working, creativity and reliability. Hugely hungry to learn with a desire and ability to pick up new languages/frameworks when required.
-						</p>
-				</div> 
-				<div class='col-sm-3'>
-				<ul class='tools'>
-					<button type="button" class="btn btn-outline-primary btn-sm">PHP</button>
-					<button type="button" class="btn btn-outline-secondary btn-sm">HTML</button>
-					<button type="button" class="btn btn-outline-success btn-sm">CSS</button>
-					<button type="button" class="btn btn-outline-danger btn-sm">Javascript</button>
-					<button type="button" class="btn btn-outline-info btn-sm">SASS</button>
-					<button type="button" class="btn btn-outline-dark btn-sm">MySQL</button>
+			</div>
+			<div id='job' class='job-title-container gone-left'>
+				<div class='nav-title'>
+					<h2 class='second-image-title'>Front End Developer</h2>
+				</div>
+				<div class='icon'>
+					<i class="fab fa-connectdevelop"></i>
+				</div>
+			</div>
+		</div>
+			<div id='nav' class='nav-container gone-right'>
+				<ul class='nav-list'>
+					<li class='home' id='home'><p>Home</p></li>
+					<li class='resume' id='resume'><p>Resume</p></li>
+					<li class='portfolio' id='portfolio'><p>Portfolio</p></li>
+					<li id='contact'class='contact'><p>Contacts</p></li>				
 				</ul>
 			</div>
 			</div>
-			</section>
-			<!-- Portfolio -->
-			<section id='portfolio' class='portfolio pb-5'>
+			</div>
+		</div>
+		<div id='page' class='page-container'>
+			<div id='cont-home' class='home-container  absolute'>
 				<div class='row'>
-					<div class='col-md-12'>
-						<div class='section-title'>
-						<h2>Portfolio</h2>
+					<div id='right-1' class='col-1 gone-right'>
+						<div class='about-container'>
+							<h2 class='container-titles'>About Me</h2>
+							<div class='about-section'>
+							<div class='about-content'>
+								<i class="fas about-me-icons fa-book"></i>
+								<div class='contain-content'>
+								<h3>Running</h3>
+								<span >Probably the best thing to destress the mind and refresh after a day in front of the computer.</span>
+								</div>
+							</div>
+							<div class='about-content'>
+								<i class="fas about-me-icons fa-tachometer-alt"></i>
+								<div class='contain-content'>
+								<h3>Books</h3>
+								<span > Whenever I'm not working on a project I'm reading books like The Brief Wondrous Life of Oscar Wao or articles on latest javascript updates </span>
+								</div>
+							</div>						
+							<div class='about-content'>
+								<i class="fas about-me-icons fa-baseball-ball"></i>
+								<div class='contain-content'>
+								<h3>Sports</h3>
+								<span>A huge sports 
+								Spurs,Yankees,and Barcelona Fan.  </span>
+								</div>
+							</div>
+						</div>
 						</div>
 					</div>
-					<div>
-						<!-- Portfolio Carousel -->
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-						  </ol>
-						  <div class="carousel-inner">
-						    <div class="carousel-item active">
-						    <h1>Guess The Phrase</h1>
-						      <a href="https://rivas48.github.io/Game_Show/"><img class="d-flex w-50 mx-auto" src="img/ComputerGame.png" alt="First slide"></a>
-						      <p class='w-50 justify-content-center d-inline-block'>A game I created based largely with my abilities within Javascript and HTML DOM.</p>
-						    </div>
-						    <div class="carousel-item">
-						    <h1>Random User Call</h1>
-						      <a href="https://rivas48.github.io/Employee_Directory/"><img class="d-flex w-50 mx-auto" src="img/EmployeeDirectory.png" alt="Second slide"></a>
-						      <p class='w-50 justify-content-center d-inline-block'>I used the Random User Genrator API https://randomuser.me/ to grab information for 12 random "employees that are listed with their thumbnail image, full name, email, and location. </p>
-						    </div>
-						    <div class="carousel-item">
-						    	<h1>Search Query Using React</h1>
-						      <a href="https://github.com/Rivas48/newApp"><img class="d-flex w-50 mx-auto" src="img/ReactProject.png" alt="Third slide"></a>
-						      <p class='w-50 justify-content-center d-inline-block'>Used React.js to search through flickr using the flickr api</p>
-						    </div>
-						     <div class="carousel-item">
-						    <h1>Prime Heat And Air</h1>
-						      <a href="https://primeheatandair.com/about-prime/"><img class="d-flex w-50 mx-auto" src="img/primeheatandair.png" alt="First slide"></a>
-						      <p class='w-50 justify-content-center d-inline-block'>A Website created and worked on during my time at Fusion Advertising using Wordpress and various plugins such as wp-review-slider-pro & Mega Menu</p>
-						    </div>
-						    <div class="carousel-item">
-						    <h1>Fair Deli Mart</h1>
-						      <a href="https://fairdelimart.com/"><img class="d-flex w-50 mx-auto" src="img/fairdelimart.png" alt="Second slide"></a>
-						      <p class='w-50 justify-content-center d-inline-block'>A Website created and worked on during my time at Fusion Advertising using Wordpress and various plugins such as Contact Form 7 & Custom Facebook Feed</p>
-						    </div>
-						  </div>
-						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Previous</span>
-						  </a>
-						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
-						  </a>
-						</div>						
+					
+					<div id='left-1' class='col-2 gone-left'>
+						<h2 class='container-titles'>Personal Info</h2>
+						<div class='info-container'>
+							<div class="about-info-section">
+								<strong class='bold'>Name:</strong>
+								<p class="info-text">Bryant Rivas</p>
+							</div>
+							<div class="about-info-section">
+								<strong class='bold'>Birthdate:</strong>
+								<p class="info-text">11/28/1995</p>
+							</div>
+							<div class="about-info-section">
+								<strong class='bold'>Address:</strong>
+								<p class="info-text">34 Middleton Rd. Greenport NY</p>
+							</div>
+							<div class="about-info-section">
+								<strong class='bold'>Phone:</strong>
+								<p class="info-text">631-276-7647</p>
+							</div>
+							<div class="about-info-section">
+								<strong class='bold'>Email:</strong>
+								<p class="info-text">brivas48@outlook.com</p>
+							</div>
+
+						</div>
+						</div>
+					</div>
+						<div class='row'>
+							<div id='left-2' class='col-3 gone-right'>
+								<h2 class='container-titles'>Employment</h2>
+								<div class='experience-container'>
+									<ul>
+										<li class='date'>05/2017 - 11/2017</li>
+										<li class='bullet'>Team Treehouse TechDegree Program</li>
+										<li class='job-title'>Front-End Development</li>
+									</ul>
+									<ul>
+										<li class='date'>02/2018 - 05/2018</li>
+										<li class='bullet'>Fusion Advertising NY</li>
+										<li class='job-title'>Jr. Web Developer</li>
+									</ul>
+								</div>
+							</div>
+							<div id='right-2' class='col-4 gone-left'>
+								<h3 class='container-titles'>Professional Skills</h3>
+								<div class='professional-container'>
+								<div class='skill-container'>
+									<div id='html' class='overlay'>
+									</div>
+									<h5>FRONT-END DEVELOPMENT</h5>
+									<p>Abundance of hours mastering the Front-End trinity of HTML, CSS, and Javascript</p>
+								</div>
+								<div class='skill-container'>
+									<div id='css' class='overlay'>
+									</div>
+									<h5>BACK-END DEVELOPMENT</h5>
+									<p>In depth knowledge pertaining to languages of Node.js, PHP, and MySQl.
+									</p>
+								</div>
+								<div class='skill-container'>
+									<div id='javascript' class='overlay'>
+									</div>						
+									<h5>FRAMEWORK/TEMPLATES ENGINES</h5>
+									<p>Messed around with various Templating Engines such as Jade and Handlebars within </p>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			<div id='cont-resume' class='resume-container'>
+				<header id='resume-slide' class='resume-header'>
+					<h2 id='resume-fade-in' class="container-titles-no-uppercase
+					">Resume</h2>
+					<p id='resume-slide-right' class='resume-header-text'>
+						Resumes are a way to see someones accomplishments but never grasp the amount of energy and ability of an individual to learn. 
+					</p>
+				</header>
+
+				<div class='facts-container'>
+					<h2 class='title-center'>FACTS ABOUT ME</h2>
+					<div class='row room'>
+						<div class='row-column'>
+							<h6>Status:</h6>
+							<p>Open to Offers</p>
+						</div>
+						<div class='row-column'>
+							<h6>Desired Salary:</h6>
+							<p>45,000</p>
+						</div>
+						<div class='row-column'>
+							<h6>Job Type:</h6>
+							<p>Web Development</p>
+						</div>
+						<div class='row-column'>
+							<h6>Education Level:</h6>
+							<p>Associate Liberal Arts from SCCC & TechDegree from Treehouse</p>
+						</div>
+					</div>
+					<div class='row room'>
+						<div class='row-column'>
+							<h6>Languages:</h6>
+							<p>English, Spanish, French</p>
+						</div>
+						<div class='row-column'>
+							<h6>Position:</h6>
+							<p>Front End Developer</p>
+						</div>
+						<div class='row-column'>
+							<h6>Industry:</h6>
+							<p>Web Development</p>
+						</div>
+						<div class='row-column'>
+							<h6>Specialties:</h6>
+							<p></p>
+						</div>
 					</div>
 				</div>
-			</section>
-			<!-- footer -->
-			<footer id='contact' class="mastfoot mt-auto pt-5 pb-5">
-			        <div class="inner">
-						<div class='row justify-content-center'>
-				        	<a class='footer-icon link' href="https://www.linkedin.com/in/bryant-rivas-87718282/"><i class="fab fa-linkedin"></i></a>
-							<a class='footer-icon face' href="https://www.facebook.com/bryant.rivas.71"><i class="fab fa-facebook-square"></i></a>
-							<a class='footer-icon git' href="https://github.com/Rivas48"><i class="fab fa-github-square"></i></a>
-							<a class='footer-icon' href="mailto:bryantrivas1127@yahoo.com"><i class="fab fas fa-envelope"></i></a>
-				       	</div>
-			        <div class='row justify-content-center flex-wrap'>
-			          	<p class='w-100 mb-0'>Copyright© 2018 Bryant Rivas</p>
+				<div class='personalities-container'>
+					<h2 class='title-center'>Personal Qualities</h2>
+					<div class='quality-section'>
+						<div class='quality-container'>
+								<i class="personal-icons fas fa-microphone"></i>
+								<h3>Communcations</h3>
+								<span class='time-details'>The ability to listen and communicate through various methods on projects and other actions.</span>
+						</div>
+						<div class='quality-container'>
+								<i class="personal-icons fas fa-briefcase"></i>
+								<h3>Work Ethic</h3>
+								<span class='time-details'>Able to not just do things to completion but acknowledge places to learn and expand if appropriate.</span>
+						</div>
+						<div class='quality-container'>
+								<i class="personal-icons fas fa-layer-group"></i>
+								<h3>Flexibility</h3>
+								<span class='time-details'>Show the ability to change gears and adapts to the envoirnment based upon whatever is asked from me. </span>
+						</div>
+						<div class='quality-container'>
+								<i class="personal-icons fas fa-check-square"></i>
+								<h3>Problem-Solving</h3>
+								<span class='time-details'>Motivated to take on challenges with minimal direction and be able to adjust the gameplan accordingly.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id='cont-portfolio'  class='portfolio-container'>
+				<header id='portfolio-slide' class='portfolio-header'>
+					<h2 id='portfolio-fade-in' class="container-titles-no-uppercase
+					">Portfolio</h2>
+					<p id='portfolio-slide-right' class='resume-header-text'>A brief look at examples of websites,projects, and pdf mockups that I had the oppurtunity to work on.</p>
+				</header>
+				<div class='quality-section'>
+					<div class='quality-container'>
+						<h1 class='quality-title'> 3</h1>
+						<h3 class='quality-title'>In-Work Projects</h3>
+						
+					</div>
+					<div class='quality-container'>
+						<h1 class='quality-title'>2</h1>
+						<h3 class='quality-title'>Websites</h3>
+					</div>
+					<div class='quality-container'>
+						<h1 class='quality-title'>10</h1>
+						<h3 class='quality-title'>Certification Projects</h3>
+					</div>
+					<div class='quality-container'>
+						<h1 class='quality-title'>1</h1>	
+						<h3 class='quality-title'>Mockup Project</h3>
+					</div>
+				</div>
+
+				<div class='project-gallery-container'>
+					<ul class='button-layout'>
+						<li><a onClick="getAll()" class='button' >All</a></li>
+						<li><a onClick="getWebsites()" onclick="" class='button' >Websites</a></li>
+						<li><a onClick="getProjects()" class='button' >Projects</a></li>
+						<li><a onClick="getMockups()" class='button' >MockUp</a></li>
+					</ul>
+					<div id='query' class='gallery-row'>
+						<div data='websites' class=' sites project websites'>
+							<img src="images/primeheatandair.png" alt="">
+						</div>
+						<div data='websites' class='sites project websites'>
+							<img src="images/fairdelimart.png" alt="">
+						</div>
+						<div data='project' class='sites project proj'>
+							<img src="images/calculator.png" alt="">
+						</div>
+						<div data='project' class='sites project proj'>
+							<img src="images/ComputerGame.png" alt="">
+						</div>
+						<div data='project' class='sites project proj'>
+							<img src="images/EmployeeDirectory.png" alt="">
+						</div>
+						<div class='sites project'>
+							<img src="images/PuppyFlashcards.png" alt="">
+						</div>
+						<div data='project' class='sites project proj'>
+							<img src="images/SassProject.png" alt="">
+						</div>
+						<div data='project' class='sites project proj'>
+							<img src="images/ReactProject.png" alt="">
+						</div>
+						<div data='project' class='sites project proj'>
+							<img src="images/VideoSubtitles.png" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div id='cont-contact' class='contact-container'>
+				<header id='contact-slide' class='contact-header'>
+					<h2 id='contact-fade-in' class='container-titles-no-uppercase'>Contact</h2>
+					<p id='contact-slide-right' class='resume-header-text'>Let Work Together Send Me An Email</p>
+				</header>
+				<div class='form-container'>
+					<h2 class='title-center'>Lets Get In Touch</h2>
+					<form id='contact-form' action="mailto:bryantrivas1127@yahoo.com" method='post' enctype='text/plain'>
+						<input type="text" name='name' placeholder="Name" required>
+						<input type="email" id="email" name='email' placeholder="Email" required>
+						<textarea name="messgage" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+						<input type="submit" class='send' name="submit" value="Send Message" onclick="sendData({test:'ok'})">
+					</form>
+				</div>	
+
+				<div class='find-me'>
+					<div class='github'>
+						
+					</div>
+					<div class='linkedin'>
+						
+					</div>
+					<div class='email'>
+						
+					</div>
+				</div>
+			</div>	
+
+		</div>
+		<div id='footer' class='footer-container'>
+			<footer>
+			    <div class="footer-section">
+					<div class='social-links'>
+				        <a class='footer-links link' href="https://www.linkedin.com/in/bryant-rivas-87718282/"><i class="fab footer-icons fa-linkedin-in"></i></a>
+						<a class='footer-links face' href="https://www.facebook.com/bryant.rivas.71"><i class="fab footer-icons fa-facebook-f"></i></a>
+						<a class='footer-links git' href="https://github.com/Rivas48"><i class="fab footer-icons fa-github"></i></a>
+			       	</div>
+			    	<div class='social-copyright'>
+			         	<p class='copyright-text'>Copyright© 2018 Bryant Rivas</p>
 			        </div>
 			    </div>
      		</footer>
 		</div>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		<script src='js/preloader.js'></script>
-
-	</body>
+	</div>	
+	<script src='js/index.js'></script>
+</body>
 </html>
