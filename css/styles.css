@@ -393,6 +393,10 @@ textarea{
 	margin-top:20px;
 	margin-bottom:20px;
 }
+
+#fair,#prime,#mock{
+	height:200px;
+}
 }
 
 
