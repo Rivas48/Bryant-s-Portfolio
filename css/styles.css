@@ -268,6 +268,24 @@ h5{
 	justify-content: space-around;
 }
 
+#link-button{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 40px;
+}
+
+#project-buttons{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #f7f7f7;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
 .button-layout .button{
     padding: 12px 24px;
     margin-right: 1px;
